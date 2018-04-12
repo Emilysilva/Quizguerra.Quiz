@@ -17,7 +17,9 @@ namespace Quizguerra.Quiz
             InitializeComponent();
         }
 
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+     
+
+        private void Form3_Load(object sender, EventArgs e)
         {
 
         }

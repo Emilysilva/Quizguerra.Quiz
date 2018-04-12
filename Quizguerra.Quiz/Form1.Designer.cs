@@ -71,7 +71,11 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.ForeColor = System.Drawing.SystemColors.Window;
+<<<<<<< HEAD
+            this.radioButton3.Location = new System.Drawing.Point(452, 330);
+=======
             this.radioButton3.Location = new System.Drawing.Point(461, 279);
+>>>>>>> a395003deb90b216b86b1dc9925a721c0064e1aa
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(279, 36);
             this.radioButton3.TabIndex = 4;
@@ -83,7 +87,11 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.SystemColors.Window;
+<<<<<<< HEAD
+            this.radioButton2.Location = new System.Drawing.Point(33, 477);
+=======
             this.radioButton2.Location = new System.Drawing.Point(33, 420);
+>>>>>>> a395003deb90b216b86b1dc9925a721c0064e1aa
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(279, 36);
             this.radioButton2.TabIndex = 3;
@@ -95,12 +103,17 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.SystemColors.Window;
+<<<<<<< HEAD
+            this.radioButton1.Location = new System.Drawing.Point(33, 330);
+=======
             this.radioButton1.Location = new System.Drawing.Point(27, 279);
+>>>>>>> a395003deb90b216b86b1dc9925a721c0064e1aa
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(278, 36);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.Text = "A- shgxshdkjshdfk";
             this.radioButton1.UseVisualStyleBackColor = true;
+            
             // 
             // label2
             // 
@@ -110,7 +123,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(713, 134);
             this.label2.TabIndex = 1;
-            this.label2.Text = "1-ksjdhaskfgqjgdqjsgfjqywgfdyfucyqwduyfewuyfffffudfrxfdurufc";
+            this.label2.Text = "1- As batalhas desenvolveram-se principalmente em?";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
@@ -118,7 +131,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(20, 9);
+            this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(285, 75);
             this.label1.TabIndex = 0;
