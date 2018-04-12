@@ -16,5 +16,10 @@ namespace Quizguerra.Quiz
         {
             InitializeComponent();
         }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
