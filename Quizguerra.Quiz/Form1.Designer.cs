@@ -35,12 +35,14 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.radioButton4);
             this.panel1.Controls.Add(this.radioButton3);
             this.panel1.Controls.Add(this.radioButton2);
@@ -123,6 +125,16 @@
             this.label1.Text = "Questão 1";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(464, 482);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(276, 45);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Enviar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -149,6 +161,7 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
