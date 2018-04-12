@@ -103,5 +103,11 @@
   <ItemGroup>
     <None Include="Resources\Plano de Fundo - Difícil.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plano de Fundo - Fácil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
