@@ -121,13 +121,16 @@
   <data name="planodefundofacilcerto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\planodefundofacilcerto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="planodefundofacil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\planodefundofacil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Plano de Fundo - Intermediário" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Plano de Fundo - Intermediário.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Plano de Fundo - Difícil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Plano de Fundo - Difícil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="planodefundofacil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\planodefundofacil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="planodefundofacilcerto1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\planodefundofacilcerto1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
