@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,21 +49,28 @@
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(15, 11);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(838, 702);
+            this.panel1.Size = new System.Drawing.Size(784, 562);
             this.panel1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(455, 472);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(276, 45);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Enviar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.ForeColor = System.Drawing.SystemColors.WindowText;
-<<<<<<< HEAD
             this.radioButton4.Location = new System.Drawing.Point(464, 376);
-=======
-            this.radioButton4.Location = new System.Drawing.Point(452, 408);
->>>>>>> a395003deb90b216b86b1dc9925a721c0064e1aa
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(279, 36);
             this.radioButton4.TabIndex = 5;
@@ -75,11 +82,7 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.ForeColor = System.Drawing.SystemColors.WindowText;
-<<<<<<< HEAD
             this.radioButton3.Location = new System.Drawing.Point(452, 251);
-=======
-            this.radioButton3.Location = new System.Drawing.Point(452, 300);
->>>>>>> a395003deb90b216b86b1dc9925a721c0064e1aa
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(279, 36);
             this.radioButton3.TabIndex = 4;
@@ -91,11 +94,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.SystemColors.WindowText;
-<<<<<<< HEAD
             this.radioButton2.Location = new System.Drawing.Point(36, 376);
-=======
-            this.radioButton2.Location = new System.Drawing.Point(33, 408);
->>>>>>> a395003deb90b216b86b1dc9925a721c0064e1aa
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(279, 36);
             this.radioButton2.TabIndex = 3;
@@ -107,11 +106,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.SystemColors.WindowText;
-<<<<<<< HEAD
             this.radioButton1.Location = new System.Drawing.Point(36, 251);
-=======
-            this.radioButton1.Location = new System.Drawing.Point(33, 300);
->>>>>>> a395003deb90b216b86b1dc9925a721c0064e1aa
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(278, 36);
             this.radioButton1.TabIndex = 2;
@@ -138,16 +133,6 @@
             this.label1.Size = new System.Drawing.Size(285, 75);
             this.label1.TabIndex = 0;
             this.label1.Text = "Questão 1";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(455, 472);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(276, 45);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Enviar";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form3
             // 
