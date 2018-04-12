@@ -127,7 +127,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Quizguerra.Quiz.Properties.Resources.Plano_de_Fundo___Difícil;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(912, 745);
+            this.ClientSize = new System.Drawing.Size(784, 562);
             this.Controls.Add(this.panel1);
             this.Name = "Form2";
             this.Text = "Form2";

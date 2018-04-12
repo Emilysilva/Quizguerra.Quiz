@@ -79,5 +79,25 @@ namespace Quizguerra.Quiz.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap planodefundofacil {
+            get {
+                object obj = ResourceManager.GetObject("planodefundofacil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap planodefundofacilcerto {
+            get {
+                object obj = ResourceManager.GetObject("planodefundofacilcerto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
