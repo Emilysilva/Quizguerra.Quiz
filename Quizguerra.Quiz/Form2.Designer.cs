@@ -57,7 +57,7 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.ForeColor = System.Drawing.SystemColors.Window;
-            this.radioButton4.Location = new System.Drawing.Point(452, 477);
+            this.radioButton4.Location = new System.Drawing.Point(452, 341);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(279, 36);
             this.radioButton4.TabIndex = 5;
@@ -69,7 +69,7 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.ForeColor = System.Drawing.SystemColors.Window;
-            this.radioButton3.Location = new System.Drawing.Point(461, 325);
+            this.radioButton3.Location = new System.Drawing.Point(452, 244);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(279, 36);
             this.radioButton3.TabIndex = 4;
@@ -81,7 +81,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.SystemColors.Window;
-            this.radioButton2.Location = new System.Drawing.Point(35, 477);
+            this.radioButton2.Location = new System.Drawing.Point(26, 341);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(279, 36);
             this.radioButton2.TabIndex = 3;
@@ -93,7 +93,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.SystemColors.Window;
-            this.radioButton1.Location = new System.Drawing.Point(33, 325);
+            this.radioButton1.Location = new System.Drawing.Point(36, 256);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(278, 36);
             this.radioButton1.TabIndex = 2;
