@@ -44,16 +44,7 @@ namespace Quizguerra.Quiz
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (radioButton3.Checked)
-            {
-                panel2.Visible = false;
-                panel3.Visible = true;
-            }
-            else
-            {
-                panel1.Visible = true;
-
-            }
+          
         }
 
         private void label4_Click(object sender, EventArgs e)

@@ -45,15 +45,7 @@ namespace Quizguerra.Quiz
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (radioButton1.Checked)
-            {
-                pergunta4.Visible = false;
-                panel2.Visible = true;
-            }
-            else
-            {
-                pergunta4.Visible = true;
-            }
+          
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -68,15 +60,7 @@ namespace Quizguerra.Quiz
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (radioButton2.Checked)
-            {
-                panel2.Visible = false;
-                panel3.Visible = true;
-            }
-            else
-            {
-                pergunta4.Visible = true;
-            }
+ 
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -86,28 +70,12 @@ namespace Quizguerra.Quiz
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (radioButton3.Checked)
-            {
-                panel3.Visible = false;
-                panel4.Visible = true;
-            }
-            else
-            {
-                pergunta4.Visible = true;
-            }
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (radioButton2.Checked)
-            {
-                panel4.Visible = false;
-                panel5.Visible = true;
-            }
-            else
-            {
-                pergunta4.Visible = true;
-            }
+            
         }
 
         private void panel1_Paint_1(object sender, PaintEventArgs e)
