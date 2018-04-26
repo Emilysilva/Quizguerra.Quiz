@@ -38,5 +38,45 @@ namespace Quizguerra.Quiz
             pergunta2.Visible = false;
             pergunta1.Visible = true;
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (R2Q2.Checked)
+            {
+                R1Q1.BackColor = Color.Green;
+            }
+            pergunta2.Visible = false;
+            pergunta1.Visible = true;
+        }
+
+        private void Q1P1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
