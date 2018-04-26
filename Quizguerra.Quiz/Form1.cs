@@ -19,7 +19,8 @@ namespace Quizguerra.Quiz
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            Form4 tela = new Form4();
+            tela.ShowDialog();
         }
 
         private void label1_Click(object sender, EventArgs e)

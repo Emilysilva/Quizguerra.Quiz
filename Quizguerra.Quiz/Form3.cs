@@ -61,7 +61,7 @@ namespace Quizguerra.Quiz
                 R1Q1.BackColor = Color.Green;
             }
             pergunta2.Visible = false;
-            pergunta3.Visible = true;
+            Q3.Visible = true;
         }
 
         private void Q1P1_CheckedChanged(object sender, EventArgs e)
@@ -77,6 +77,36 @@ namespace Quizguerra.Quiz
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnP1_Click(object sender, EventArgs e)
+        {
+            if (R1Q1.Checked)
+            {
+                R1Q1.BackColor = Color.Green;
+            }
+            pergunta1.Visible = false;
+            pergunta2.Visible = true;
+        }
+
+        private void btnP2_Click(object sender, EventArgs e)
+        {
+            if (R2Q2.Checked)
+            {
+                R2Q2.BackColor = Color.Green;
+            }
+            pergunta2.Visible = false;
+            pergunta3.Visible = true;
+        }
+
+        private void btnP3_Click(object sender, EventArgs e)
+        {
+            if (R2Q3.Checked)
+            {
+                R2Q3.BackColor = Color.Green;
+            }
+            pergunta3.Visible = false;
+            this.Close();
         }
     }
 }
