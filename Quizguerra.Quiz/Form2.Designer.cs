@@ -35,6 +35,7 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
@@ -45,11 +46,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
+=======
+            this.Q4 = new System.Windows.Forms.Label();
+>>>>>>> d10935f30491f12edcc7b44ed5c05a1b1121e568
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
+<<<<<<< HEAD
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImage = global::Quizguerra.Quiz.Properties.Resources.planodefundofacilcerto;
             this.panel2.Controls.Add(this.panel1);
@@ -66,8 +71,24 @@
             this.panel2.Size = new System.Drawing.Size(784, 562);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+=======
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.radioButton4);
+            this.panel1.Controls.Add(this.radioButton3);
+            this.panel1.Controls.Add(this.radioButton2);
+            this.panel1.Controls.Add(this.radioButton1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.Q4);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(784, 562);
+            this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+>>>>>>> d10935f30491f12edcc7b44ed5c05a1b1121e568
             // 
-            // button1
+            // btnP1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(441, 471);
@@ -138,8 +159,9 @@
             this.label2.Text = "1-ksjdhaskfgqjgdqjsgfjqywgfdyfucyqwduyfewuyfffffudfrxfdurufc";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label1
+            // Q4
             // 
+<<<<<<< HEAD
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
@@ -247,6 +269,16 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Questão 2";
             this.label4.Click += new System.EventHandler(this.label4_Click);
+=======
+            this.Q4.AutoSize = true;
+            this.Q4.Font = new System.Drawing.Font("Arial Narrow", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q4.ForeColor = System.Drawing.SystemColors.Window;
+            this.Q4.Location = new System.Drawing.Point(20, 9);
+            this.Q4.Name = "Q4";
+            this.Q4.Size = new System.Drawing.Size(285, 75);
+            this.Q4.TabIndex = 0;
+            this.Q4.Text = "Questão 4";
+>>>>>>> d10935f30491f12edcc7b44ed5c05a1b1121e568
             // 
             // Form2
             // 
@@ -275,7 +307,7 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Q4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button2;
