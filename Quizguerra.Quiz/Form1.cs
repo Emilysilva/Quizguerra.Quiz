@@ -47,12 +47,12 @@ namespace Quizguerra.Quiz
         {
             if (radioButton1.Checked)
             {
-                panel1.Visible = false;
+                pergunta4.Visible = false;
                 panel2.Visible = true;
             }
             else
             {
-                panel1.Visible = true;
+                pergunta4.Visible = true;
             }
         }
 
@@ -75,7 +75,7 @@ namespace Quizguerra.Quiz
             }
             else
             {
-                panel1.Visible = true;
+                pergunta4.Visible = true;
             }
         }
 
@@ -93,7 +93,7 @@ namespace Quizguerra.Quiz
             }
             else
             {
-                panel1.Visible = true;
+                pergunta4.Visible = true;
             }
         }
 
@@ -106,7 +106,7 @@ namespace Quizguerra.Quiz
             }
             else
             {
-                panel1.Visible = true;
+                pergunta4.Visible = true;
             }
         }
     }
