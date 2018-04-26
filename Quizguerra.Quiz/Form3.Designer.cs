@@ -35,7 +35,6 @@
             this.R1Q1 = new System.Windows.Forms.RadioButton();
             this.P1 = new System.Windows.Forms.Label();
             this.Q1 = new System.Windows.Forms.Label();
-            this.btnP1 = new System.Windows.Forms.Button();
             this.pergunta2 = new System.Windows.Forms.Panel();
             this.R1Q2 = new System.Windows.Forms.RadioButton();
             this.R2Q2 = new System.Windows.Forms.RadioButton();
@@ -55,6 +54,7 @@
             this.pergunta1.Controls.Add(this.R3Q1);
             this.pergunta1.Controls.Add(this.R2Q1);
             this.pergunta1.Controls.Add(this.R1Q1);
+            this.pergunta1.Controls.Add(this.btnP2);
             this.pergunta1.Controls.Add(this.P1);
             this.pergunta1.Controls.Add(this.Q1);
             this.pergunta1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -133,29 +133,16 @@
             this.Q1.TabIndex = 8;
             this.Q1.Text = "Questão 1";
             // 
-            // btnP1
-            // 
-            this.btnP1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
-            this.btnP1.Location = new System.Drawing.Point(443, 506);
-            this.btnP1.Name = "btnP1";
-            this.btnP1.Size = new System.Drawing.Size(276, 45);
-            this.btnP1.TabIndex = 33;
-            this.btnP1.Text = "Enviar";
-            this.btnP1.UseVisualStyleBackColor = true;
-            this.btnP1.Click += new System.EventHandler(this.btnP1_Click);
-            // 
             // pergunta2
             // 
             this.pergunta2.BackColor = System.Drawing.Color.Transparent;
-            this.pergunta2.Controls.Add(this.pergunta1);
-            this.pergunta2.Controls.Add(this.btnP1);
             this.pergunta2.Controls.Add(this.R1Q2);
             this.pergunta2.Controls.Add(this.R2Q2);
             this.pergunta2.Controls.Add(this.R3Q2);
             this.pergunta2.Controls.Add(this.R4Q2);
-            this.pergunta2.Controls.Add(this.btnP2);
             this.pergunta2.Controls.Add(this.P2);
             this.pergunta2.Controls.Add(this.Q2);
+            this.pergunta2.Controls.Add(this.pergunta1);
             this.pergunta2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pergunta2.Location = new System.Drawing.Point(0, 0);
             this.pergunta2.Name = "pergunta2";
@@ -210,7 +197,7 @@
             // btnP2
             // 
             this.btnP2.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
-            this.btnP2.Location = new System.Drawing.Point(443, 506);
+            this.btnP2.Location = new System.Drawing.Point(437, 505);
             this.btnP2.Name = "btnP2";
             this.btnP2.Size = new System.Drawing.Size(276, 45);
             this.btnP2.TabIndex = 33;
@@ -263,7 +250,6 @@
         #endregion
         private System.Windows.Forms.Panel pergunta2;
         private System.Windows.Forms.Panel pergunta1;
-        private System.Windows.Forms.Button btnP1;
         private System.Windows.Forms.Button btnP2;
         private System.Windows.Forms.Label Q1;
         private System.Windows.Forms.Label Q2;
