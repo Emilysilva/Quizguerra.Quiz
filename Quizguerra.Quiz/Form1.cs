@@ -109,6 +109,11 @@ namespace Quizguerra.Quiz
                 pergunta4.Visible = true;
             }
         }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     }
 
