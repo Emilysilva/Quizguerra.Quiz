@@ -22,13 +22,12 @@ namespace Quizguerra.Quiz
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            timer1.Enabled = true;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-           
+            timer1.Enabled = true;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -60,11 +59,17 @@ namespace Quizguerra.Quiz
             }
             else if (pro == 100)
             {
-                this.Close();
-                Form3 questoes = new Form3();
-                questoes.ShowDialog();
+                timer1.Enabled = false;
+                Iniciar();
             }
 
+        }
+
+        private void Iniciar()
+        {
+            Form3 questoes01 = new Form3();
+            questoes01.ShowDialog();
+            
         }
 
         private void barra_Click(object sender, EventArgs e)

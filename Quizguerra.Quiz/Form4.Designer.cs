@@ -44,7 +44,7 @@
             this.inicio.Size = new System.Drawing.Size(148, 47);
             this.inicio.TabIndex = 0;
             this.inicio.Text = "Iniciar";
-            this.inicio.UseVisualStyleBackColor = false;
+            this.inicio.UseVisualStyleBackColor = true;
             this.inicio.Click += new System.EventHandler(this.button1_Click);
             // 
             // barra
@@ -58,7 +58,7 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 9000;
+            this.timer1.Interval = 300;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form4

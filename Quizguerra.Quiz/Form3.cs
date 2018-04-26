@@ -56,7 +56,7 @@ namespace Quizguerra.Quiz
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            if (R2Q2.Checked)
+            if (R2Q1.Checked)
             {
                 R1Q1.BackColor = Color.Green;
             }
