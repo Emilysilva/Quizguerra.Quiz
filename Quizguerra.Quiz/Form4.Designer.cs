@@ -28,7 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.inicio = new System.Windows.Forms.Button();
+            this.barra = new System.Windows.Forms.ProgressBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
+            // 
+            // inicio
+            // 
+            this.inicio.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.inicio.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
+            this.inicio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.inicio.Location = new System.Drawing.Point(73, 447);
+            this.inicio.Name = "inicio";
+            this.inicio.Size = new System.Drawing.Size(148, 47);
+            this.inicio.TabIndex = 0;
+            this.inicio.Text = "Iniciar";
+            this.inicio.UseVisualStyleBackColor = false;
+            this.inicio.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // barra
+            // 
+            this.barra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.barra.Location = new System.Drawing.Point(261, 463);
+            this.barra.Name = "barra";
+            this.barra.Size = new System.Drawing.Size(425, 31);
+            this.barra.TabIndex = 1;
+            this.barra.Click += new System.EventHandler(this.barra_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 9000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form4
             // 
@@ -37,6 +68,8 @@
             this.BackgroundImage = global::Quizguerra.Quiz.Properties.Resources.primeira_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(755, 556);
+            this.Controls.Add(this.barra);
+            this.Controls.Add(this.inicio);
             this.DoubleBuffered = true;
             this.Name = "Form4";
             this.Text = "Form4";
@@ -46,5 +79,9 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button inicio;
+        private System.Windows.Forms.ProgressBar barra;
+        private System.Windows.Forms.Timer timer1;
     }
 }
