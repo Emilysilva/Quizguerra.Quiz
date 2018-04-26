@@ -55,7 +55,7 @@
             this.panel1.Size = new System.Drawing.Size(784, 562);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // btnP1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(464, 482);
