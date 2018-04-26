@@ -34,9 +34,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Quizguerra.Quiz.Properties.Resources.THANKSFOR_GIVING_ITYOUR_100__;
+            this.BackgroundImage = global::Quizguerra.Quiz.Properties.Resources.primeira_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(763, 548);
+            this.ClientSize = new System.Drawing.Size(755, 556);
             this.DoubleBuffered = true;
             this.Name = "Form4";
             this.Text = "Form4";
