@@ -28,5 +28,15 @@ namespace Quizguerra.Quiz
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(R1Q1.Checked)
+            {
+                R1Q1.BackColor = Color.Green;
+            }
+            pergunta2.Visible = false;
+            pergunta1.Visible = true;
+        }
     }
 }
