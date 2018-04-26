@@ -21,5 +21,10 @@ namespace Quizguerra.Quiz
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
