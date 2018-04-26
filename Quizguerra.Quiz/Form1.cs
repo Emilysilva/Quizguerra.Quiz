@@ -114,6 +114,11 @@ namespace Quizguerra.Quiz
         {
 
         }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 
