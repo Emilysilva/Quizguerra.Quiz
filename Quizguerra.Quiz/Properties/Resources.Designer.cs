@@ -109,5 +109,25 @@ namespace Quizguerra.Quiz.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap primeira_2 {
+            get {
+                object obj = ResourceManager.GetObject("primeira 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap THANKSFOR_GIVING_ITYOUR_100__ {
+            get {
+                object obj = ResourceManager.GetObject("THANKSFOR GIVING ITYOUR 100%!", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
