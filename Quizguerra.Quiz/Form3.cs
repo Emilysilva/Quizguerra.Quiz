@@ -61,7 +61,7 @@ namespace Quizguerra.Quiz
                 R1Q1.BackColor = Color.Green;
             }
             pergunta2.Visible = false;
-            pergunta1.Visible = true;
+            pergunta3.Visible = true;
         }
 
         private void Q1P1_CheckedChanged(object sender, EventArgs e)
