@@ -121,5 +121,10 @@ namespace Quizguerra.Quiz
             }
             
         }
+
+        private void Q3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -30,6 +30,14 @@
         {
             this.pergunta1 = new System.Windows.Forms.Panel();
             this.R4Q1 = new System.Windows.Forms.RadioButton();
+            this.pergunta3 = new System.Windows.Forms.Panel();
+            this.R4Q3 = new System.Windows.Forms.RadioButton();
+            this.R3Q3 = new System.Windows.Forms.RadioButton();
+            this.R2Q3 = new System.Windows.Forms.RadioButton();
+            this.R1Q3 = new System.Windows.Forms.RadioButton();
+            this.btnP3 = new System.Windows.Forms.Button();
+            this.P3 = new System.Windows.Forms.Label();
+            this.Q3 = new System.Windows.Forms.Label();
             this.R3Q1 = new System.Windows.Forms.RadioButton();
             this.R2Q1 = new System.Windows.Forms.RadioButton();
             this.R1Q1 = new System.Windows.Forms.RadioButton();
@@ -44,17 +52,9 @@
             this.btnP2 = new System.Windows.Forms.Button();
             this.P2 = new System.Windows.Forms.Label();
             this.Q2 = new System.Windows.Forms.Label();
-            this.pergunta3 = new System.Windows.Forms.Panel();
-            this.R4Q3 = new System.Windows.Forms.RadioButton();
-            this.R3Q3 = new System.Windows.Forms.RadioButton();
-            this.R2Q3 = new System.Windows.Forms.RadioButton();
-            this.R1Q3 = new System.Windows.Forms.RadioButton();
-            this.btnP3 = new System.Windows.Forms.Button();
-            this.P3 = new System.Windows.Forms.Label();
-            this.Q3 = new System.Windows.Forms.Label();
             this.pergunta1.SuspendLayout();
-            this.pergunta2.SuspendLayout();
             this.pergunta3.SuspendLayout();
+            this.pergunta2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pergunta1
@@ -84,6 +84,100 @@
             this.R4Q1.TabIndex = 13;
             this.R4Q1.Text = "D- Todas estão corretas";
             this.R4Q1.UseVisualStyleBackColor = true;
+            // 
+            // pergunta3
+            // 
+            this.pergunta3.Controls.Add(this.R4Q3);
+            this.pergunta3.Controls.Add(this.R3Q3);
+            this.pergunta3.Controls.Add(this.R2Q3);
+            this.pergunta3.Controls.Add(this.R1Q3);
+            this.pergunta3.Controls.Add(this.btnP3);
+            this.pergunta3.Controls.Add(this.P3);
+            this.pergunta3.Controls.Add(this.Q3);
+            this.pergunta3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pergunta3.Location = new System.Drawing.Point(0, 0);
+            this.pergunta3.Name = "pergunta3";
+            this.pergunta3.Size = new System.Drawing.Size(784, 562);
+            this.pergunta3.TabIndex = 9;
+            // 
+            // R4Q3
+            // 
+            this.R4Q3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.R4Q3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.R4Q3.Location = new System.Drawing.Point(422, 335);
+            this.R4Q3.Name = "R4Q3";
+            this.R4Q3.Size = new System.Drawing.Size(345, 149);
+            this.R4Q3.TabIndex = 27;
+            this.R4Q3.Text = "D- Nenhuma delas";
+            this.R4Q3.UseVisualStyleBackColor = true;
+            // 
+            // R3Q3
+            // 
+            this.R3Q3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.R3Q3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.R3Q3.Location = new System.Drawing.Point(416, 224);
+            this.R3Q3.Name = "R3Q3";
+            this.R3Q3.Size = new System.Drawing.Size(341, 120);
+            this.R3Q3.TabIndex = 26;
+            this.R3Q3.Text = "C- As duas alianças";
+            this.R3Q3.UseVisualStyleBackColor = true;
+            // 
+            // R2Q3
+            // 
+            this.R2Q3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.R2Q3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.R2Q3.Location = new System.Drawing.Point(41, 347);
+            this.R2Q3.Name = "R2Q3";
+            this.R2Q3.Size = new System.Drawing.Size(287, 122);
+            this.R2Q3.TabIndex = 25;
+            this.R2Q3.Text = "B- Tríplice Entente";
+            this.R2Q3.UseVisualStyleBackColor = true;
+            // 
+            // R1Q3
+            // 
+            this.R1Q3.BackColor = System.Drawing.Color.Transparent;
+            this.R1Q3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.R1Q3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.R1Q3.Location = new System.Drawing.Point(27, 224);
+            this.R1Q3.Name = "R1Q3";
+            this.R1Q3.Size = new System.Drawing.Size(301, 120);
+            this.R1Q3.TabIndex = 24;
+            this.R1Q3.Text = "A- Triplice Aliança";
+            this.R1Q3.UseVisualStyleBackColor = false;
+            // 
+            // btnP3
+            // 
+            this.btnP3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
+            this.btnP3.Location = new System.Drawing.Point(448, 490);
+            this.btnP3.Name = "btnP3";
+            this.btnP3.Size = new System.Drawing.Size(276, 45);
+            this.btnP3.TabIndex = 28;
+            this.btnP3.Text = "Enviar";
+            this.btnP3.UseVisualStyleBackColor = true;
+            this.btnP3.Click += new System.EventHandler(this.btnP3_Click);
+            // 
+            // P3
+            // 
+            this.P3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.P3.Location = new System.Drawing.Point(17, 117);
+            this.P3.Name = "P3";
+            this.P3.Size = new System.Drawing.Size(736, 155);
+            this.P3.TabIndex = 23;
+            this.P3.Text = "3- Qual aliança que o Brasil apoiou na 1ª Guerra Mundial?";
+            // 
+            // Q3
+            // 
+            this.Q3.AutoSize = true;
+            this.Q3.BackColor = System.Drawing.Color.Transparent;
+            this.Q3.Font = new System.Drawing.Font("Arial Narrow", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.Q3.Location = new System.Drawing.Point(10, 18);
+            this.Q3.Name = "Q3";
+            this.Q3.Size = new System.Drawing.Size(285, 75);
+            this.Q3.TabIndex = 22;
+            this.Q3.Text = "Questão 3";
+            this.Q3.Click += new System.EventHandler(this.Q3_Click);
             // 
             // R3Q1
             // 
@@ -250,99 +344,6 @@
             this.Q2.Text = "Questão 2";
             this.Q2.Click += new System.EventHandler(this.label4_Click);
             // 
-            // pergunta3
-            // 
-            this.pergunta3.Controls.Add(this.R4Q3);
-            this.pergunta3.Controls.Add(this.R3Q3);
-            this.pergunta3.Controls.Add(this.R2Q3);
-            this.pergunta3.Controls.Add(this.R1Q3);
-            this.pergunta3.Controls.Add(this.btnP3);
-            this.pergunta3.Controls.Add(this.P3);
-            this.pergunta3.Controls.Add(this.Q3);
-            this.pergunta3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pergunta3.Location = new System.Drawing.Point(0, 0);
-            this.pergunta3.Name = "pergunta3";
-            this.pergunta3.Size = new System.Drawing.Size(784, 562);
-            this.pergunta3.TabIndex = 9;
-            // 
-            // R4Q3
-            // 
-            this.R4Q3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.R4Q3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.R4Q3.Location = new System.Drawing.Point(422, 335);
-            this.R4Q3.Name = "R4Q3";
-            this.R4Q3.Size = new System.Drawing.Size(345, 149);
-            this.R4Q3.TabIndex = 27;
-            this.R4Q3.Text = "D- Nenhuma delas";
-            this.R4Q3.UseVisualStyleBackColor = true;
-            // 
-            // R3Q3
-            // 
-            this.R3Q3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.R3Q3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.R3Q3.Location = new System.Drawing.Point(416, 224);
-            this.R3Q3.Name = "R3Q3";
-            this.R3Q3.Size = new System.Drawing.Size(341, 120);
-            this.R3Q3.TabIndex = 26;
-            this.R3Q3.Text = "C- As duas alianças";
-            this.R3Q3.UseVisualStyleBackColor = true;
-            // 
-            // R2Q3
-            // 
-            this.R2Q3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.R2Q3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.R2Q3.Location = new System.Drawing.Point(41, 347);
-            this.R2Q3.Name = "R2Q3";
-            this.R2Q3.Size = new System.Drawing.Size(287, 122);
-            this.R2Q3.TabIndex = 25;
-            this.R2Q3.Text = "B- Tríplice Entente";
-            this.R2Q3.UseVisualStyleBackColor = true;
-            // 
-            // R1Q3
-            // 
-            this.R1Q3.BackColor = System.Drawing.Color.Transparent;
-            this.R1Q3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.R1Q3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.R1Q3.Location = new System.Drawing.Point(27, 224);
-            this.R1Q3.Name = "R1Q3";
-            this.R1Q3.Size = new System.Drawing.Size(301, 120);
-            this.R1Q3.TabIndex = 24;
-            this.R1Q3.Text = "A- Triplice Aliança";
-            this.R1Q3.UseVisualStyleBackColor = false;
-            // 
-            // btnP3
-            // 
-            this.btnP3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold);
-            this.btnP3.Location = new System.Drawing.Point(448, 490);
-            this.btnP3.Name = "btnP3";
-            this.btnP3.Size = new System.Drawing.Size(276, 45);
-            this.btnP3.TabIndex = 28;
-            this.btnP3.Text = "Enviar";
-            this.btnP3.UseVisualStyleBackColor = true;
-            this.btnP3.Click += new System.EventHandler(this.btnP3_Click);
-            // 
-            // P3
-            // 
-            this.P3.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.P3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.P3.Location = new System.Drawing.Point(17, 117);
-            this.P3.Name = "P3";
-            this.P3.Size = new System.Drawing.Size(736, 155);
-            this.P3.TabIndex = 23;
-            this.P3.Text = "3- Qual aliança que o Brasil apoiou na 1ª Guerra Mundial?";
-            // 
-            // Q3
-            // 
-            this.Q3.AutoSize = true;
-            this.Q3.BackColor = System.Drawing.Color.Transparent;
-            this.Q3.Font = new System.Drawing.Font("Arial Narrow", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.Q3.Location = new System.Drawing.Point(10, 18);
-            this.Q3.Name = "Q3";
-            this.Q3.Size = new System.Drawing.Size(285, 75);
-            this.Q3.TabIndex = 22;
-            this.Q3.Text = "Questão 3";
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -357,10 +358,10 @@
             this.Load += new System.EventHandler(this.Form3_Load);
             this.pergunta1.ResumeLayout(false);
             this.pergunta1.PerformLayout();
-            this.pergunta2.ResumeLayout(false);
-            this.pergunta2.PerformLayout();
             this.pergunta3.ResumeLayout(false);
             this.pergunta3.PerformLayout();
+            this.pergunta2.ResumeLayout(false);
+            this.pergunta2.PerformLayout();
             this.ResumeLayout(false);
 
         }
